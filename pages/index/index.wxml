@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="title">
+  自我介绍
+</view>
+<image bindtap="bindViewTap" class="userinfo-avatar" src="../../image/ava.jpg" mode="cover">
+</image>
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <view class="text-diy">
+    <text scroll-y="true" style="height: 200px;">
+    A note about Manjaro and Arch
+    Manjaro is based on another distribution called Arch Linux. As such, it is also able to draw software packages from the communitymaintained Arch User Repository (AUR). However, please note that Manjaro is not Arch, and any enquiries about the Manjaro operating system should be directed towards the Manjaro forums and Internet Relay Chat (IRC) channels alone. For example, although Ubuntu is derived from Debian - and therefore shares some similarities with its parent - there are still substantial differences between these operating systems and how they work.
+          
+          
+    </text>
+  </view>
+</view>
